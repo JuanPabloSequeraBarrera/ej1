@@ -1,17 +1,14 @@
-.mitabla,td,th{
-    width: 100vw;
-    height: 100%;
-    border: solid 3px  black;
-}
-.mitabla tr{
-    text-align: center;
+*{
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
 }
 .container{
-    width: 150px;
-    height: 105px;
+    width: 33.3%;
+    height: 730px;
     background-color: bisque;
     padding: 10px;
-    border: solid 5px black;
+    border: solid 5px rgb(2, 7, 70);
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -19,4 +16,30 @@
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 1em;
     text-transform: capitalize;
-}c
+    float: left;
+    text-align: center;
+
+}
+.contenedor2{
+    width: 33.33%;
+    height: 730px;
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px rgb(2, 7, 70);
+    float: left;
+}
+.contenedor3{
+    width: 33.33%;
+    height: 730px;
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px rgb(2, 7, 70);
+    float: left;
+}
+
+#fp{
+    height: 200px;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 80%;
+}
