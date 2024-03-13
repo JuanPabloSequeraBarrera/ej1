@@ -1,0 +1,22 @@
+.mitabla,td,th{
+    width: 100vw;
+    height: 100%;
+    border: solid 3px  black;
+}
+.mitabla tr{
+    text-align: center;
+}
+.container{
+    width: 150px;
+    height: 105px;
+    background-color: bisque;
+    padding: 10px;
+    border: solid 5px black;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-style: italic;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    text-transform: capitalize;
+}c
