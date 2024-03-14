@@ -6,16 +6,12 @@
 .container{
     width: 33.3%;
     height: 730px;
-    background-color: bisque;
+    background-color: rgb(149, 29, 41);
     padding: 10px;
     border: solid 5px rgb(2, 7, 70);
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-style: italic;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-size: 1em;
-    text-transform: capitalize;
     float: left;
     text-align: center;
 
@@ -23,7 +19,7 @@
 .contenedor2{
     width: 33.33%;
     height: 730px;
-    background-color: bisque;
+    background-color: rgb(149, 29, 41);
     padding: 10px;
     border: solid 5px rgb(2, 7, 70);
     float: left;
@@ -31,7 +27,7 @@
 .contenedor3{
     width: 33.33%;
     height: 730px;
-    background-color: bisque;
+    background-color: rgb(149, 29, 41);
     padding: 10px;
     border: solid 5px rgb(2, 7, 70);
     float: left;
@@ -42,4 +38,27 @@
     overflow: hidden;
     object-fit: contain;
     border-radius: 80%;
+}
+
+.linea{
+    background-color: black;
+    height: 5px;
+
+}
+.info{
+    height: 67%;
+    margin: 2px;
+    padding: 10px;
+    box-sizing: content-box;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-size: 13px;
+}
+a:visited{
+    color:rgb(154, 199, 8);
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 500px
 }
