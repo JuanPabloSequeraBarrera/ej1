@@ -1,0 +1,26 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 220px;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100vw;
+    color: white;
+    bottom: 0;
+    position: fixed;
+}
+.contenido-footer{
+    position: relative;
+    height: 100%;
+}
+.derechos{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    height: fit-content;
+}

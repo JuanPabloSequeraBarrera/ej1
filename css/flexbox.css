@@ -1,0 +1,27 @@
+body{
+
+}
+.parent{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+.item{
+    border: 1px solid;
+    opacity: 0.9;
+    width: 100px;
+    height: 100px;
+    background: bisque;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.item:first-child{
+    background:yellow;
+    flex: 4;
+
+}
+.item:last-child{
+    background: red;
+    flex:2;
+}

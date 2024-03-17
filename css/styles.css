@@ -4,51 +4,56 @@
     box-sizing: border-box;
 }
 .container{
-    width: 33.3%;
-    height: 730px;
-    background-color: rgb(149, 29, 41);
+    width: 33.100%;
+    height: 735px;
+    background-color: rgb(230, 223, 224);
     padding: 10px;
-    border: solid 5px rgb(255, 255, 255);
+    border: solid 5px rgb(0, 0, 0);
     box-sizing: border-box;
     overflow: hidden;
     text-overflow: ellipsis;
     float: left;
     text-align: center;
+    border-radius: 5%;
 
 }
 .contenedor2{
     width: 33.33%;
-    height: 730px;
-    background-color: rgb(149, 29, 41);
+    height: 735px;
+    background-color: rgb(230, 223, 224);
     padding: 10px;
-    border: solid 5px rgb(255, 255, 255);
+    border: solid 5px rgb(0, 0, 0);
     float: left;
+    border-radius: 5%;
+
 }
 .contenedor3{
     width: 33.33%;
-    height: 730px;
-    background-color: rgb(149, 29, 41);
+    height: 735px;
+    background-color: rgb(230, 223, 224);
     padding: 10px;
-    border: solid 5px rgb(255, 255, 255);
+    border: solid 5px rgb(0, 0, 0);
     float: left;
+    border-radius: 5%;
+
 }
 
 #fp{
     height: 200px;
     overflow: hidden;
     object-fit: contain;
-    border-radius: 80%;
+    border-radius: 40%;
 }
 
 .linea{
     background-color: black;
-    height: 5px;
+    height: 4px;
 
 }
 .info{
     height: 67%;
     margin: 2px;
-    padding: 10px;
+    padding: 5px;
     box-sizing: content-box;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
@@ -56,9 +61,40 @@
     word-wrap: break-word;
     font-size: 13px;
 }
-a:visited{
-    color:rgb(154, 199, 8);
-    background-color: transparent;
-    text-decoration: none;
-    border-radius: 500px
+
+.infm{
+    margin: 2px;
+    padding: 5px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-size: 15px;
+}
+
+.proyectos{
+    background-color: rgb(211, 162, 0);
+    margin: 5px 5px;
+    padding: 5px;
+    height: 35%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-size: 10px;
+    overflow-y: scroll;
+}
+
+.stacks{
+    background-color: rgb(211, 162, 0);
+    margin: 5px;
+    padding: 5px;
+    height: 25%;
+    width:  100%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-size: 10px;
+    overflow-y: scroll;
 }

@@ -1,0 +1,42 @@
+.parent{
+    border: 5px solid black;
+    width: 450px;
+    height: 250px;
+    box-sizing: border-box;
+    position: relative;
+}
+/* .cont{
+    background-color: rgb(0, 193, 193);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right:5%;
+} */
+/* .cont{
+    background-color: rgb(0, 193, 193);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+} */
+.cont{
+    background-color: rgb(0, 193, 193);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+/* .cont{
+    background-color: rgb(0, 193, 193);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+} */
